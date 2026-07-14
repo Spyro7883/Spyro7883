@@ -1,6 +1,6 @@
 ### Hi, I'm Eusebiu 👋
 
-**Frontend developer in Web3** — I build dApp UIs and on-chain data dashboards with
+**Web3 builder, frontend-focused** — I build dApp UIs and on-chain data dashboards with
 Next.js/TypeScript, wagmi/viem, and The Graph. Computer Science & Engineering graduate
 @ Politehnica Bucharest.
 
@@ -29,6 +29,6 @@ Currently exploring zero-knowledge and DeFi frontends.
 
 #### Reach me
 
-[LinkedIn](https://www.linkedin.com/in/eusebiuspi) · spinu11_2003@yahoo.ro
+[LinkedIn](https://www.linkedin.com/in/eusebiuspi)
 
 <sub>ETHBucharest volunteer · ETHGlobal hackathons · Top 5 @ HackITAll (BCR)</sub>
