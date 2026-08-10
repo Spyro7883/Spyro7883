@@ -1,8 +1,8 @@
 ### Hi, I'm Eusebiu 👋
 
-**Web3 builder, frontend-focused** — I build dApp UIs and on-chain data dashboards with
-Next.js/TypeScript, wagmi/viem, and The Graph. Computer Science & Engineering graduate
-@ Politehnica Bucharest.
+Full-stack developer — TypeScript/React/Next.js on the front end, Python and Node on
+Postgres behind it. Bachelor's thesis: a zero-knowledge identity wallet with proofs
+verified on-chain. Computer Science & Engineering graduate @ Politehnica Bucharest.
 
 Currently exploring zero-knowledge and DeFi frontends.
 
