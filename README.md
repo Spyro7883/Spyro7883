@@ -1,6 +1,6 @@
 ### Hi, I'm Eusebiu 👋
 
-Full-stack developer — TypeScript, React/Next.js, Node, Postgres.
+Full-stack developer - TypeScript, React/Next.js, Node, Postgres.
 CS & Engineering @ Politehnica Bucharest.
 
 Currently building full-stack TypeScript products, with a side interest in applied AI and zero-knowledge proofs.
