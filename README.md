@@ -33,7 +33,6 @@ Currently building full-stack TypeScript products, with a side interest in appli
 
 #### Reach me
 
-[LinkedIn](https://www.linkedin.com/in/eusebiuspi)
-eusebiu.spinu@proton.me
+[LinkedIn](https://www.linkedin.com/in/eusebiuspi) · eusebiu.spinu@proton.me
 
 <sub>ETHBucharest volunteer · ETHGlobal hackathons · Top 5 @ HackITAll (BCR)</sub>
