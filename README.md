@@ -1,10 +1,7 @@
 ### Hi, I'm Eusebiu 👋
 
-Full-stack developer — TypeScript/React/Next.js on the front end, Python and Node on
-Postgres behind it. Bachelor's thesis: a zero-knowledge identity wallet with proofs
-verified on-chain. Computer Science & Engineering graduate @ Politehnica Bucharest.
-
-Currently exploring zero-knowledge and DeFi frontends.
+Full-stack developer — TypeScript, React/Next.js, Node, Postgres.
+CS & Engineering @ Politehnica Bucharest.
 
 ---
 
