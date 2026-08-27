@@ -4,8 +4,6 @@ Full-stack developer - TypeScript, React/Next.js, Node.
 ZK circuits in circom; open PR on ethereum/csp-benchmarks.
 CS & Engineering @ Politehnica Bucharest.
 
-Currently building full-stack TypeScript products, with a side interest in applied AI and zero-knowledge proofs.
-
 ---
 
 #### Featured work
@@ -26,7 +24,8 @@ Currently building full-stack TypeScript products, with a side interest in appli
 
 **Frontend** TypeScript · React · Next.js · TailwindCSS · shadcn/ui  
 **Backend & tooling** Python · Node.js · PostgreSQL · Prisma · Docker · pytest · Playwright · Vercel  
-**Web3** wagmi · viem · Solidity · circom · Groth16/snarkjs · Hardhat · Rust (benchmark harness, arkworks) · Foundry
+**ZK & systems** circom · Groth16/snarkjs · Rust (benchmark harness, arkworks)
+**Web3** wagmi · viem · Solidity · Hardhat · Foundry
 
 ---
 
