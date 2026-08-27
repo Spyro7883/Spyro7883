@@ -24,7 +24,7 @@ CS & Engineering @ Politehnica Bucharest.
 
 **Frontend** TypeScript · React · Next.js · TailwindCSS · shadcn/ui  
 **Backend & tooling** Python · Node.js · PostgreSQL · Prisma · Docker · pytest · Playwright · Vercel  
-**ZK & systems** circom · Groth16/snarkjs · Rust (benchmark harness, arkworks)
+**ZK & systems** circom · Groth16/snarkjs · Rust (benchmark harness, arkworks)  
 **Web3** wagmi · viem · Solidity · Hardhat · Foundry
 
 ---
