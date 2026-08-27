@@ -2,7 +2,6 @@
 
 Full-stack developer - TypeScript, React/Next.js, Node.
 ZK circuits in circom; open PR on ethereum/csp-benchmarks.
-CS & Engineering @ Politehnica Bucharest.
 
 ---
 
