@@ -9,8 +9,8 @@ ZK circuits in circom; merged ECDSA benchmark in ethereum/csp-benchmarks.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[ECDSA Circuit Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** | ECDSA Circuit Benchmark (merged) - secp256k1 ECDSA verification benchmark contributed to the Ethereum Foundation's circuit benchmarking suite. Cut the verification circuit from 1,508,904 to 512,955 non-linear constraints using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | circom · Rust · Groth16 |
-| **[DID Wallet (ZKP)](https://github.com/Spyro7883/DID_Wallet_ZKP)** | Self-sovereign identity wallet that proves age, citizenship, and income range with zero-knowledge proofs verified on-chain by never revealing the raw data. | circom · Groth16 · React Native · Solidity |
+| **[ECDSA Circuit Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** *(merged)* | secp256k1 ECDSA verification benchmark contributed to the Ethereum Foundation's circuit benchmarking suite. Cut the verification circuit from 1,508,904 to 512,955 non-linear constraints using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | circom · Rust · Groth16 |
+| **[DID Wallet (ZKP)](https://github.com/Spyro7883/DID_Wallet_ZKP)** | Self-sovereign identity wallet that proves age, citizenship, and income range with zero-knowledge proofs verified on-chain, without ever revealing the raw data. | circom · Groth16 · React Native · Solidity |
 | **[Job Tracker](https://github.com/Spyro7883/job-tracker)** | Production-style job-application tracker: auth-protected dashboard, CRUD, advanced table UX, E2E tested. | Next.js · Prisma · PostgreSQL · Clerk · Playwright |
 | **[MEV Forensics Agent](https://github.com/tskoyo/agentic-mev-forensics)** *(team)* | An AI agent that investigates why a DEX/MEV trade underperformed and delivers a cited report. I built the entire frontend - a real-time investigation dashboard with an SSE-streamed tool-call timeline, PnL/verdict cards, evidence panels, and shareable permalinks. | Next.js · TypeScript · TailwindCSS · SSE |
 | [tex2png](https://github.com/Spyro7883/tex2png) | LaTeX-to-PNG pipeline with blank-render detection and display-mode retry. Found a silent failure mode with probe scripts, then pinned it with 48 regression tests on CI across three operating systems. | Node · JavaScript · GitHub Actions |
@@ -23,7 +23,7 @@ ZK circuits in circom; merged ECDSA benchmark in ethereum/csp-benchmarks.
 
 **Frontend** TypeScript · React · Next.js · TailwindCSS · shadcn/ui  
 **Backend & tooling** Python · Node.js · PostgreSQL · Prisma · Docker · pytest · Playwright · Vercel  
-**ZK & systems** circom · Groth16/snarkjs · Rust (benchmark harness, arkworks)  
+**ZK & systems** circom · Groth16/snarkjs · Rust (benchmark harness)  
 **Web3** wagmi · viem · Solidity · Hardhat · Foundry
 
 ---
