@@ -1,7 +1,7 @@
 ### Hi, I'm Eusebiu 👋
 
 Full-stack developer - TypeScript, React/Next.js, Node.
-ZK circuits in circom; open PR on ethereum/csp-benchmarks.
+ZK circuits in circom; merged ECDSA benchmark in ethereum/csp-benchmarks.
 
 ---
 
@@ -9,7 +9,7 @@ ZK circuits in circom; open PR on ethereum/csp-benchmarks.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[ECDSA Circuit Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** *(open PR)* | secp256k1 ECDSA verification benchmark contributed to the Ethereum Foundation's circuit benchmarking suite, under review by PSE. Cut the verification circuit from 1,508,904 to 532,811 constraints (~3.0x) using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | circom · Rust · Groth16 · arkworks |
+| **[ECDSA Circuit Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** | ECDSA Circuit Benchmark (merged) — secp256k1 ECDSA verification benchmark contributed to the Ethereum Foundation's circuit benchmarking suite. Cut the verification circuit from 1,508,904 to 512,955 non-linear constraints using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | circom · Rust · Groth16 |
 | **[DID Wallet (ZKP)](https://github.com/Spyro7883/DID_Wallet_ZKP)** | Self-sovereign identity wallet that proves age, citizenship, and income range with zero-knowledge proofs verified on-chain — never revealing the raw data. | circom · Groth16 · React Native · Solidity |
 | **[Job Tracker](https://github.com/Spyro7883/job-tracker)** | Production-style job-application tracker: auth-protected dashboard, CRUD, advanced table UX, E2E tested. | Next.js · Prisma · PostgreSQL · Clerk · Playwright |
 | **[MEV Forensics Agent](https://github.com/tskoyo/agentic-mev-forensics)** *(team)* | An AI agent that investigates why a DEX/MEV trade underperformed and delivers a cited report. I built the entire frontend — a real-time investigation dashboard with an SSE-streamed tool-call timeline, PnL/verdict cards, evidence panels, and shareable permalinks. | Next.js · TypeScript · TailwindCSS · SSE |
