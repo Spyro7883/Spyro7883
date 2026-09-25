@@ -37,4 +37,4 @@ on the [P-256 follow-up](https://github.com/ethereum/csp-benchmarks/issues/305).
 
 [LinkedIn](https://www.linkedin.com/in/eusebiuspi) · eusebiu.spinu@proton.me
 
-<sub>ETHBucharest volunteer · ETHGlobal participant — Lisbon (in person), HackMoney & Open Agents (online) · Top 5 @ HackITAll (BCR)</sub>
+<sub>ETHBucharest volunteer · ETHGlobal participant · Top 5 @ HackITAll (BCR)</sub>
