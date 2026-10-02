@@ -2,7 +2,7 @@
 
 Software engineer building full-stack products and applied zero-knowledge systems.
 
-I contributed two merged Circom ECDSA verification benchmarks to `ethereum/csp-benchmarks`: [secp256k1 (#302)](https://github.com/ethereum/csp-benchmarks/pull/302) and [P-256 (#308)](https://github.com/ethereum/csp-benchmarks/pull/308). The work includes circuit optimization and Rust benchmark tooling. I write about the implementation decisions and review lessons at [Engineering Notes](https://eusebiu.vercel.app/).
+My contributions to `ethereum/csp-benchmarks` include Circom ECDSA verification benchmarks for [secp256k1 (#302)](https://github.com/ethereum/csp-benchmarks/pull/302) and [P-256 (#308)](https://github.com/ethereum/csp-benchmarks/pull/308). Both have been merged. The work includes circuit optimization and Rust benchmark tooling. I write about the implementation decisions and review lessons at [Engineering Notes](https://eusebiu.vercel.app/).
 
 ---
 
@@ -10,8 +10,8 @@ I contributed two merged Circom ECDSA verification benchmarks to `ethereum/csp-b
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[ECDSA Circuit Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** *(merged)* | secp256k1 ECDSA verification benchmark contributed to Ethereum's client-side proving benchmark suite. Cut the verification circuit from 1,508,904 to 503,280 non-linear constraints using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | Circom · Rust · Groth16 |
-| **[P-256 ECDSA Benchmark](https://github.com/ethereum/csp-benchmarks/pull/308)** *(merged)* | Circom verification circuit with 299,183 constraints, compared with 1,972,905 in the reference implementation. Includes public-key validation, scalar range checks, and handling of exceptional point additions after review. [Implementation article](https://eusebiu.vercel.app/writing/p256-ecdsa-circom/). | Circom · Rust · P-256 |
+| **[secp256k1 ECDSA Benchmark](https://github.com/ethereum/csp-benchmarks/pull/302)** *(merged)* | secp256k1 ECDSA verification benchmark contributed to Ethereum's client-side proving benchmark suite. Cut the verification circuit from 1,508,904 to 503,280 non-linear constraints using fake-GLV and a width-12 fixed-base comb, with a Rust harness that measures baseline against optimized. | Circom · Rust · Groth16 |
+| **[P-256 ECDSA Benchmark](https://github.com/ethereum/csp-benchmarks/pull/308)** *(merged)* | Circom verification circuit with 299,183 constraints, compared with 1,972,905 in the reference implementation. Includes public-key validation, scalar range checks, and handling of exceptional point additions after review. [Implementation article](https://eusebiu.vercel.app/writing/p256-ecdsa-circom/). | Circom · Rust · Groth16 |
 | **[DID Wallet (ZKP)](https://github.com/Spyro7883/DID_Wallet_ZKP)** | Self-sovereign identity wallet that proves age, citizenship, and income range with zero-knowledge proofs verified on-chain, without ever revealing the raw data. | Circom · Groth16 · React Native · Solidity |
 | **[Job Tracker](https://github.com/Spyro7883/job-tracker)** | Production-style job-application tracker: auth-protected dashboard, CRUD, advanced table UX, E2E tested. | Next.js · Prisma · PostgreSQL · Clerk · Playwright |
 | **[MEV Forensics Agent](https://github.com/tskoyo/agentic-mev-forensics)** *(team)* | An AI agent that investigates why a DEX/MEV trade underperformed and delivers a cited report. I built the entire frontend - a real-time investigation dashboard with an SSE-streamed tool-call timeline, PnL/verdict cards, evidence panels, and shareable permalinks. | Next.js · TypeScript · TailwindCSS · SSE |
